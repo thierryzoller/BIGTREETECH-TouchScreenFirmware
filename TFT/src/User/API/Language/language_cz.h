@@ -37,8 +37,8 @@
     #define STRING_BBL                    "BBL"
     #define STRING_UBL                    "UBL"
     #define STRING_MBL                    "MBL"
-    #define STRING_MBL_SETTINGS           "Mesh Bed Leveling"
-    #define STRING_ABL_SETTINGS           "Auto Bed Leveling"
+    #define STRING_MBL_SETTINGS           "Ruční vyrovnání"
+    #define STRING_ABL_SETTINGS           "Auto vyrovnání"
     #define STRING_ABL_SETTINGS_BBL       "Bilineární vyrovnání"
     #define STRING_ABL_SETTINGS_UBL       "UBL vyrovnání"
     #define STRING_ABL_SETTINGS_UBL_SAVE  "Uložit do slotu"
@@ -56,6 +56,7 @@
     #define STRING_BLTOUCH_REPEAT         "Přesnost"
     #define STRING_Z_OFFSET               "Z Offset"
     #define STRING_PROBE_OFFSET           "Offset sondy"
+    #define STRING_HOME_OFFSET            "Home Offset"
     #define STRING_CONFIRMATION           "Jste si jistý?"
     #define STRING_DOWN                   "Dolů"
     #define STRING_UP                     "Nahoru"
@@ -63,7 +64,7 @@
     #define STRING_RESTORE                "Obnovit"
     #define STRING_RESET                  "Reset"
     #define STRING_DEFAULT                "Výchozí"
-    #define STRING_CLEAR                  "Clear"
+    #define STRING_CLEAR                  "Vymaž"
     #define STRING_NEXT                   "Další"
     #define STRING_DISTANCE               "Vzdálenost"
     #define STRING_INVALID_VALUE          "Neplatná hodnota/y!"
@@ -85,6 +86,8 @@
     #define STRING_RESUME                 "Obnovit"
     #define STRING_LOAD                   "Zavést"
     #define STRING_UNLOAD                 "Vysunout"
+    #define STRING_LOAD_UNLOAD            "Load/Unload"  // needs translation
+    #define STRING_LOAD_UNLOAD_SHORT      "(Un)Load"  // needs translation
     #define STRING_SLOW_SPEED             "Pomalu"
     #define STRING_NORMAL_SPEED           "Normál"
     #define STRING_FAST_SPEED             "Rychle"
@@ -272,8 +275,12 @@
     #define STRING_CONNECTION_SETTINGS    "Připojení"
     #define STRING_OFFSET_TOOL            "Offset 2.trysky"
     #define STRING_HYBRID_THRESHOLD       "TMC Hybridní práh"
-    #define STRING_NOTIFICATIONS          "Notifications"
-    #define STRING_MESH_EDITOR            "Mesh edit"
-    #define STRING_MESH_TUNER             "Mesh tuner"
+    #define STRING_NOTIFICATIONS          "Oznámení"
+    #define STRING_MESH_EDITOR            "Mesh síť"
+    #define STRING_MESH_TUNER             "Mesh nastavení"
+    #define STRING_CASE_LIGHT             "Case light"
+    #define STRING_LOAD_STARTED           "Filament load in progress.\nNo further actions possible\nuntil it's done.\nPlease stand by."  // translation needed
+    #define STRING_UNLOAD_STARTED         "Filament unload in progress.\nNo further actions possible\nuntil it's done.\nPlease stand by."  // translation needed
+    #define STRING_HEATERS_ON             "Some heaters are still ON.\nDo you want to stop them?"  // translation needed
 
 #endif
